@@ -1,0 +1,6 @@
+
+#Extracting real time tweets
+
+Uber <- searchTwitter("uber", n= 5000, lang = "en", resultType = "recent")
+
+Lyft <- searchTwitter("Lyft", n = 5000, lang = "en", resultType = "recent")
