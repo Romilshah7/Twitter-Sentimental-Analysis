@@ -1,0 +1,10 @@
+library(ROAuth)
+library(twitteR)
+
+Consumer_key <- 'yourconsumerkey'
+consumer_secret <- 'yourconsumersecret'
+access_token <- '133315125-OH27wZVTw5FrRLknV3iyjvq8bujKSJJtrI60wwBv'
+access_secret <- 'HBAQaCNS0usAGDM0Sydb1hJEqp3JdiXryjd5AIREDBHos'
+
+setup_twitter_oauth(Consumer_key, consumer_secret, access_token, access_secret)
+1
